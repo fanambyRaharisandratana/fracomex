@@ -6,6 +6,7 @@ config :fracomex, Fracomex.Repo,
   password: "Mgbi@261!",
   hostname: "localhost",
   database: "fracomex",
+  port: 5433,
   stacktrace: true,
   show_sensitive_data_on_connection_error: true,
   pool_size: 10
